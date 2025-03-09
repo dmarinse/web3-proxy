@@ -4,6 +4,7 @@ version = "0.43.0"
 edition = "2021"
 publish = false
 
+
 [lib]
 name = "migration"
 path = "src/lib.rs"
@@ -19,4 +20,6 @@ features = [
   # View the list of supported features at https://www.sea-ql.org/SeaORM/docs/install-and-config/database-and-async-runtime.
   "runtime-tokio-rustls",  # `ASYNC_RUNTIME` feature
   "sqlx-mysql",            # `DATABASE_DRIVER` feature
+
+  
 ]
